@@ -9,7 +9,7 @@
   
   inputs.src-criterion-0_1_1.flake = false;
   inputs.src-criterion-0_1_1.owner = "disruptek";
-  inputs.src-criterion-0_1_1.ref   = "refs/tags/0.1.1";
+  inputs.src-criterion-0_1_1.ref   = "0_1_1";
   inputs.src-criterion-0_1_1.repo  = "criterion";
   inputs.src-criterion-0_1_1.type  = "github";
   
