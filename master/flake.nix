@@ -9,7 +9,7 @@
   
   inputs.src-criterion-master.flake = false;
   inputs.src-criterion-master.owner = "disruptek";
-  inputs.src-criterion-master.ref   = "refs/heads/master";
+  inputs.src-criterion-master.ref   = "master";
   inputs.src-criterion-master.repo  = "criterion";
   inputs.src-criterion-master.type  = "github";
   
