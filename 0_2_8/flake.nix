@@ -11,6 +11,7 @@
   inputs.src-criterion-0_2_8.ref   = "refs/tags/0.2.8";
   inputs.src-criterion-0_2_8.owner = "disruptek";
   inputs.src-criterion-0_2_8.repo  = "criterion";
+  inputs.src-criterion-0_2_8.dir   = "";
   inputs.src-criterion-0_2_8.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
