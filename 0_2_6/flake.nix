@@ -11,8 +11,15 @@
   inputs.src-criterion-0_2_6.ref   = "refs/tags/0.2.6";
   inputs.src-criterion-0_2_6.owner = "disruptek";
   inputs.src-criterion-0_2_6.repo  = "criterion";
-  inputs.src-criterion-0_2_6.dir   = "";
   inputs.src-criterion-0_2_6.type  = "github";
+  
+  inputs."github.com/disruptek/testes".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/testes".ref   = "master";
+  inputs."github.com/disruptek/testes".repo  = "github.com/disruptek/testes";
+  inputs."github.com/disruptek/testes".dir   = "";
+  inputs."github.com/disruptek/testes".type  = "github";
+  inputs."github.com/disruptek/testes".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/testes".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
