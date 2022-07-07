@@ -36,11 +36,11 @@
       },
       "locked": {
         "dir": "3_7_0",
-        "lastModified": 1656300917,
-        "narHash": "sha256-xV7iHymqyBvzeuF4rvILnQq/KWnhksDcCz5JiX3aRDk=",
+        "lastModified": 1656746771,
+        "narHash": "sha256-NU+YgyKWIitmrX+ffVnRtNmiExerkACB2aT2nzvgafA=",
         "owner": "nim-nix-pkgs",
         "repo": "github-disruptek-balls",
-        "rev": "6e5e14dda135b4d22ec2476cee5580f35ece9402",
+        "rev": "6cfa9482262f05f89bf5d40703f8ad82af9c5751",
         "type": "github"
       },
       "original": {
